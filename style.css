@@ -1,3 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    box-shadow: 0rem .25rem .625rem rgba(0, 0, 0, .4);
+    padding: 20px 40px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    padding: 15px 25px;
+    line-height: 1.75;
+}
+
 div > p {
     background-color: yellow;
 }

@@ -1,0 +1,61 @@
+div > p {
+    background-color: yellow;
+}
+
+/*Тег*/
+button {
+    background-color: #ccffdd;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    font-size: 25px;
+    box-shadow: 0rem .25rem .625rem rgba(0, 0, 0, .2);
+}
+
+/*Клас*/
+.about-us {
+    padding: 0.5rem 0.5rem;
+    background-color: 	 #ffe6ff;
+}
+
+/*Id*/
+#hid1 {
+    color: black;
+    background-color:  #e6ccb3;
+}
+
+/*Вкладені селектори*/
+.about p {
+    background-color: 	 #ffb3ff;
+}
+
+/*Дочірні селектори*/
+.main > h1 {
+    color: #ff6666;
+}
+
+.main > li {
+    color: #ff6666;  /*Не працює*/
+}
+
+/*Послідовність селекторів*/
+h1 + h2 {
+    color: #88cc00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 ~ p {
+    background-color: 	 #a3c2c2;
+}
+
+/*Різні комбінації селекторів тег/клас/атрибут/id/вкладеності*/
+
+div > .logo > ul > li[id="item"] {
+    font-size: 25px;
+    color: #e60000;
+}
+
+/*.logo li[id="item"] {
+    font-size: 20px;
+    color: #000000;
+}*/
